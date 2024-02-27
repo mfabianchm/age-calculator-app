@@ -14,6 +14,12 @@
 		583285482B8CEF4A003898D0 /* age_calculator_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583285472B8CEF4A003898D0 /* age_calculator_appTests.swift */; };
 		583285522B8CEF4A003898D0 /* age_calculator_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583285512B8CEF4A003898D0 /* age_calculator_appUITests.swift */; };
 		583285542B8CEF4A003898D0 /* age_calculator_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583285532B8CEF4A003898D0 /* age_calculator_appUITestsLaunchTests.swift */; };
+		583285662B8CEFA0003898D0 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 583285602B8CEF9F003898D0 /* Poppins-Bold.ttf */; };
+		583285672B8CEFA0003898D0 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 583285612B8CEF9F003898D0 /* Poppins-ExtraBold.ttf */; };
+		583285682B8CEFA0003898D0 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 583285622B8CEF9F003898D0 /* Poppins-Regular.ttf */; };
+		583285692B8CEFA0003898D0 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 583285632B8CEF9F003898D0 /* Poppins-Italic.ttf */; };
+		5832856A2B8CEFA0003898D0 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 583285642B8CEF9F003898D0 /* Poppins-BoldItalic.ttf */; };
+		5832856B2B8CEFA0003898D0 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 583285652B8CEF9F003898D0 /* Poppins-ExtraBoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,13 @@
 		5832854D2B8CEF4A003898D0 /* age-calculator-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "age-calculator-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		583285512B8CEF4A003898D0 /* age_calculator_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = age_calculator_appUITests.swift; sourceTree = "<group>"; };
 		583285532B8CEF4A003898D0 /* age_calculator_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = age_calculator_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		583285602B8CEF9F003898D0 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		583285612B8CEF9F003898D0 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		583285622B8CEF9F003898D0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		583285632B8CEF9F003898D0 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		583285642B8CEF9F003898D0 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		583285652B8CEF9F003898D0 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		5832856D2B8CEFBA003898D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +107,8 @@
 		583285352B8CEF48003898D0 /* age-calculator-app */ = {
 			isa = PBXGroup;
 			children = (
+				5832856D2B8CEFBA003898D0 /* Info.plist */,
+				5832856C2B8CEFA9003898D0 /* Fonts */,
 				583285362B8CEF48003898D0 /* age_calculator_appApp.swift */,
 				583285382B8CEF48003898D0 /* ContentView.swift */,
 				5832853A2B8CEF4A003898D0 /* Assets.xcassets */,
@@ -125,6 +140,19 @@
 				583285532B8CEF4A003898D0 /* age_calculator_appUITestsLaunchTests.swift */,
 			);
 			path = "age-calculator-appUITests";
+			sourceTree = "<group>";
+		};
+		5832856C2B8CEFA9003898D0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				583285602B8CEF9F003898D0 /* Poppins-Bold.ttf */,
+				583285642B8CEF9F003898D0 /* Poppins-BoldItalic.ttf */,
+				583285612B8CEF9F003898D0 /* Poppins-ExtraBold.ttf */,
+				583285652B8CEF9F003898D0 /* Poppins-ExtraBoldItalic.ttf */,
+				583285632B8CEF9F003898D0 /* Poppins-Italic.ttf */,
+				583285622B8CEF9F003898D0 /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +259,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5832856B2B8CEFA0003898D0 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				583285692B8CEFA0003898D0 /* Poppins-Italic.ttf in Resources */,
+				583285672B8CEFA0003898D0 /* Poppins-ExtraBold.ttf in Resources */,
+				5832856A2B8CEFA0003898D0 /* Poppins-BoldItalic.ttf in Resources */,
 				5832853E2B8CEF4A003898D0 /* Preview Assets.xcassets in Resources */,
+				583285662B8CEFA0003898D0 /* Poppins-Bold.ttf in Resources */,
 				5832853B2B8CEF4A003898D0 /* Assets.xcassets in Resources */,
+				583285682B8CEFA0003898D0 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +454,7 @@
 				DEVELOPMENT_TEAM = H5MNUSUD85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "age-calculator-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +484,7 @@
 				DEVELOPMENT_TEAM = H5MNUSUD85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "age-calculator-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
